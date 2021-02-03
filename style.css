@@ -1,0 +1,57 @@
+/* Navbar */
+
+.navbar {
+    padding: 8px 0 8px 0;
+    text-align: center;
+}
+
+.navbar-row {
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.link-home {
+    text-align: left;
+    margin: auto 0;
+}
+
+.link-shop {
+    text-align: right;
+    margin: auto 0;
+}
+
+a {
+    color: black;
+} 
+
+/* Jumbotron */
+.jumbotron {
+    padding-top: 3vh;
+    width:100%;
+    height: 30vh;
+    background-image:url("./image/DSC09138.jpg");
+    background-position:center center;
+    background-size:cover;
+}
+
+
+
+/* .main-banner {
+    width: 100%;
+} */
+
+/* Content */
+.content-1 {
+    padding-top: 48px;
+}
+
+.landing-image-1 {
+    width: 100%;
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1400px;
+    }
+}
