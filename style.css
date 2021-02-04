@@ -11,6 +11,11 @@
     margin-right: 5px;
 }
 
+.navbar-brand {
+    width: 60px;
+    height: 60px
+}
+
 .link-home {
     text-align: left;
     margin: auto 0;
@@ -23,7 +28,18 @@
 
 a {
     color: black;
-} 
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        width: 45px;
+        height: 45px
+    }
+
+    .navbar-link {
+        font-size: 14px;
+    }
+}
 
 /* Jumbotron */
 .jumbotron {
